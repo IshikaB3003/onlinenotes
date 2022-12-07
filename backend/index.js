@@ -6,6 +6,8 @@ connectToMongo();
 const app = express()
 const port = 5000
 
+app.use(express.json())
+
 //Available Routes
 // app.get('/', (req, res) => {
 //   res.send('Hello Ishika!')
